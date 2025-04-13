@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mydailyprop"
+version = "0.1.0"
+description = "A LangGraph + Reflex propaganda analyser"
+license = "Apache 2.0"
+authors = ["Pierre Guirriec <pierre.guirriec@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+reflex = "^0.6.0"
+langgraph = "^0.2.0"
+langchain-openai = "^0.2.0"
+firecrawl-py = "^0.0.20"
+langchain-community = "^0.3.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pillow = {version = "^10.4.0"}
+langgraph-cli = {version = "^0.1.73", extras = ["inmem"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

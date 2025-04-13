@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Reflex App - My Daily Propaganda",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "reflex",
+            "args": [
+                "run",
+            ],
+        },
+        {
+            "name": "Reflex App - My Daily Propaganda with graph",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "reflex",
+            "args": [
+                "run",
+            ],
+            "env": {
+                "SHOW_GRAPH": "true",
+            },
+        },
+    ]
+}

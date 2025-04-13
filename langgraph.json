@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "mydailyprop": "./mydailyprop/mydailyprop.py:graph"
+    },
+    "env": ".env"
+}
